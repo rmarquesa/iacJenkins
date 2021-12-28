@@ -1,0 +1,5 @@
+git
+email-ext
+credentials
+matrix-auth
+folder
