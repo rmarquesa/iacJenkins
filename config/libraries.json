@@ -1,0 +1,9 @@
+{
+    "repositories": {
+        "/DevOps/devops-pipeline-shared.git": {
+            "name": "devops",
+            "revision": "",
+            "implicit": true
+        }
+    }
+}

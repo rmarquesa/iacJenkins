@@ -1,5 +1,10 @@
-git
-email-ext
+ansible
+ansicolor
 credentials
+email-ext
+fortify
+hashicorp-vault
+ldap
 matrix-auth
-folder
+matrix-project
+sonar
