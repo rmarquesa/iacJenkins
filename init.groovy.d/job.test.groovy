@@ -1,9 +1,10 @@
-import jenkins.model.Jenkins;
-import hudson.model.WorkflowJob;
-import hudson.tasks.Shell;
-import hudson.triggers.SCMTrigger;
+import hudson.plugins.git.*
+import jenkins.*
+import jenkins.model.*
+import hudson.model.*
 
-def jenkins = Jenkins.getInstance();
-def initJob = jenkins.createProject(WorkflowJob, 'init-job');
+def jenkins = Jenkins.instance
+def job = new org.jenkinsci.plugins.workflow.job.WorkflowJob(jenkins, "Test Job")
+job.save()
 
-initJob.setDescription('This is a dummy project');
+jenkins.reload()
