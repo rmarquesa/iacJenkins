@@ -12,6 +12,10 @@ sonar
 caffeine-api
 configuration-as-code
 gradle
+git-client
+git-server
+git
+gitlab
 workflow-aggregator
 workflow-api
 workflow-basic-steps
